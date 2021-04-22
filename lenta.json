@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "607fcdbbd188e9e253f88312"
+  },
+  "name": "one",
+  "body": "Это мой второй пост, ставьте лайки",
+  "comments": [
+    "ghbdtn2",
+    "dfsdf",
+    "dasfsdfsdffs"
+  ],
+  "likes": 3
+},{
+  "_id": {
+    "$oid": "607fce97d188e9e253f88313"
+  },
+  "name": "bsod",
+  "body": "Привет я супер страшный синий экран",
+  "comments": [
+    "Хай бсод"
+  ],
+  "likes": 0
+},{
+  "_id": {
+    "$oid": "607fcec6d188e9e253f88314"
+  },
+  "name": "one",
+  "body": "Как жить други?",
+  "comments": [
+    "Никак!"
+  ],
+  "likes": 3
+},{
+  "_id": {
+    "$oid": "607fdb945054debc0f836101"
+  },
+  "name": "two",
+  "body": "Пост номер раз",
+  "comments": [],
+  "likes": 0
+},{
+  "_id": {
+    "$oid": "607fdc80abb11f2731d6e710"
+  },
+  "name": "fr",
+  "body": "это тест добавляения поста в систему",
+  "comments": [],
+  "likes": 0
+}]

@@ -1,0 +1,28 @@
+syntax = "proto3";
+package reverse;
+service SocNet {
+    rpc Do(Request) returns (Response) {}
+    rpc UserAddPost(PostData) returns (Response) {}
+    rpc UserLikePost(PostData) returns (Response) {}
+    rpc UserCommentPost(PostData) returns (Response) {}
+    rpc UserList(Request) returns (Response) {}
+    rpc UserLenta(Request) returns (ResponseLenta) {}
+}
+message Request {
+    string message =1;
+}
+
+message PostData {
+    string username =1;
+    string idpost =2;
+    string body =3;
+}
+
+message ResponseLenta {
+    string message =1;
+    string idpost =2;
+}
+
+message Response {
+    string message =1;
+}
